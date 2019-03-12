@@ -2,7 +2,7 @@
   "name": "robofriends",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mseltahir.github.io/robofriends/",
+  "homepage": "https://mseltahir.github.io/robofriends",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.4",
