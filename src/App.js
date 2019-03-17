@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React, * as react from 'react';
 import CardList from './CardList';
 import SearchBox from './SearchBox';
 // import { robots } from './Robots';
 import Scroll from './Scroll';
 import './App.css';
 
-class App extends Component {
+class App extends react.Component {
   constructor(){
     super();
     this.state = {
@@ -21,7 +21,7 @@ class App extends Component {
   }
 
   onSearchChange = (event) => {
-    this.setState({'searchField': event.target.value}) 
+    this.setState({'searchField': event.target.value})
   }
 
   render(){
